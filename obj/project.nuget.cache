@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GXGfkJIOodZPzrxb/FMGi9fqPdjSem0D75VG0ZI3md/cTTYe9NDh8TAJtseUZwOPAvZtoC41sESjLs4a1pO5QA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shawn\\Documents\\vsProjects\\EglRec\\7.2.2\\7.2.2-3860252+++Portal+Release-Live\\7.2.2-3860252+++Portal+Release-Live.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shawn\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}

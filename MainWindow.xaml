@@ -1,0 +1,204 @@
+﻿<Window x:Class="_7._2._2_3860252___Portal_Release_Live.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_7._2._2_3860252___Portal_Release_Live"
+        mc:Ignorable="d"
+        Title="Epic Games Launcher" Height="820" Width="1536" ResizeMode="NoResize" WindowStyle="None">
+    <Window.Resources>
+        <Style x:Key="textblockDesign" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="fonts/Akkordeon-Nine.tff"/>
+            <Setter Property="FontFamily" Value="fonts/Blogger Sans-Bold.tff"/>
+            <Setter Property="FontFamily" Value="fonts/Blogger Sans-Medium.tff"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" Background="Black" Opacity="0.92"/>
+        <Image Source="/BG.png" Margin="0,28,0,-30" Opacity="0.9"/>
+        <Border BorderBrush="#FF201c1c" BorderThickness="1" HorizontalAlignment="Center" Height="69" VerticalAlignment="Top" Width="1536" Background="#FF201C1C"/>
+        <Border Name="DragBorder" MouseDown="DragBorderDrag" BorderThickness="1" HorizontalAlignment="Left" Height="74" Margin="0,-46,0,0" VerticalAlignment="Top" Width="1457" Background="#FF201C1C"/>
+        <Image HorizontalAlignment="Left" Height="45" Margin="40,13,0,0" VerticalAlignment="Top" Width="39" Source="/eglogo.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="121,42,0,0" TextWrapping="Wrap" Text="U" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="129,42,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="137.4,42,0,0" TextWrapping="Wrap" Text="R" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="145,42,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="151,42,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="159,42,0,0" TextWrapping="Wrap" Text="L" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="169,42,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="175,42,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="184,42,0,0" TextWrapping="Wrap" Text="G" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="192,42,0,0" TextWrapping="Wrap" Text="I" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="195,42,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="204,42,0,0" TextWrapping="Wrap" Text="E               F" VerticalAlignment="Top" Foreground="#FFFFFFFF" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="204,42,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="266,42,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Foreground="#FFFFFFFF" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="274,42,0,0" TextWrapping="Wrap" Text="R" VerticalAlignment="Top" Foreground="#FFFFFFFF" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="281,42,0,0" TextWrapping="Wrap" Text="T" VerticalAlignment="Top" Foreground="#FFFFFFFF" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="287.5,42,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Foreground="#FFFFFFFF" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="296,42,0,0" TextWrapping="Wrap" Text="I" VerticalAlignment="Top" Foreground="#FFFFFFFF" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="299,42,0,0" TextWrapping="Wrap" Text="T" VerticalAlignment="Top" Foreground="#FFFFFFFF" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="305.5,42,0,0" TextWrapping="Wrap" Text="E               P" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="305.5,42,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Foreground="#FFFFFFFF" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="368,42,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="376,42,0,0" TextWrapping="Wrap" Text="R" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="384.4,42,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="392,42,0,0" TextWrapping="Wrap" Text="G" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="400,42,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="408,42,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="408,42,0,0" TextWrapping="Wrap" Text="N               U" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="475,42,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="483.4,42,0,0" TextWrapping="Wrap" Text="R" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="491,42,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="497.4,42,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="505.4,42,0,0" TextWrapping="Wrap" Text="L  T" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="524,42,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="532,42,0,0" TextWrapping="Wrap" Text="U" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="539.4,42,0,0" TextWrapping="Wrap" Text="R" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="547,42,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="556,42,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="564,42,0,0" TextWrapping="Wrap" Text="M" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="575,42,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="581,42,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="590,42,0,0" TextWrapping="Wrap" Text="T               S" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="653,42,0,0" TextWrapping="Wrap" Text="H" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="662,42,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="670,42,0,0" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="679,42,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="688,42,0,0" TextWrapping="Wrap" Text="W  C" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="714,42,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="722.4,42,0,0" TextWrapping="Wrap" Text="M" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="733,42,0,0" TextWrapping="Wrap" Text="P" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="740,42,0,0" TextWrapping="Wrap" Text="L" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="746,42,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="752,42,0,0" TextWrapping="Wrap" Text="X               M" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="820,42,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="828,42,0,0" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="836,42,0,0" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="844.4,42,0,0" TextWrapping="Wrap" Text="I" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="848,42,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="857,42,0,0" TextWrapping="Wrap" Text="G" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="3" Margin="238,66,0,0" VerticalAlignment="Top" Width="100" Background="#FFA2C49F" BorderBrush="#FFA2C49F"/>
+        <!--place border here-->
+        <Border Name="CloseBorder" BorderBrush="#FFD0144C" BorderThickness="1" HorizontalAlignment="Left" Height="28" Margin="1496,0,0,0" VerticalAlignment="Top" Width="40" Background="#FFD0144C" Opacity="0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1495,0,0,794" TextWrapping="Wrap" Text="r" VerticalAlignment="Bottom" Foreground="White" FontWeight="Bold" FontFamily="Marlett" FontSize="24" Width="39" Height="24" TextAlignment="Center" MouseEnter="CloseMEnter" MouseLeave="CloseMLeave" MouseUp="CloseClick" RenderTransformOrigin="0.525,0.589"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1457,0,0,795" TextWrapping="Wrap" Text="q" VerticalAlignment="Bottom" Foreground="White" FontWeight="Bold" FontFamily="Marlett" FontSize="36" Width="39" Height="25" TextAlignment="Center"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="25" Margin="1350,0,0,0" VerticalAlignment="Top" Width="107" Background="#FF363635" BorderBrush="#FF363635"/>
+        <Image HorizontalAlignment="Left" Height="25" Margin="1424,0,0,0" VerticalAlignment="Top" Width="32" Source="/settings.png"/>
+        <Image HorizontalAlignment="Left" Height="24" Margin="1375,0,0,0" VerticalAlignment="Top" Width="51" Source="/friends.png"/>
+        <Image HorizontalAlignment="Left" Height="27" Margin="1350,-2,0,0" VerticalAlignment="Top" Width="37" Source="/downloads.png"/>
+        <Image HorizontalAlignment="Left" Height="27" Margin="1302,-1,0,0" VerticalAlignment="Top" Width="27" Source="/sharp_keyboard_arrow_down_white_24dp.png" RenderTransformOrigin="0.5,0.5" Opacity="0.3">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.184"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.059"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <TextBlock HorizontalAlignment="Left" Margin="1174,4,0,0" TextWrapping="Wrap" Text="Recreation By Kianna" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontFamily="National Park Heavy" FontSize="14"/>
+        <Image HorizontalAlignment="Left" Height="27" Margin="1148,3,0,0" VerticalAlignment="Top" Width="21" Source="/uprofile.png"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="751" Margin="0,69,0,0" VerticalAlignment="Top" Width="556" Background="Black" Opacity="0.6"/>
+        <TextBlock HorizontalAlignment="Left" Margin="69,177,0,0" TextWrapping="Wrap" Text="FORTNITE" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="48" Foreground="#FFF6EDF5" FontWeight="Normal" FontStyle="Normal"/>
+        <TextBlock HorizontalAlignment="Left" Margin="69,258,0,0" TextWrapping="Wrap" Text="Fortnite includes Battle Royale, the completely free 100- player PvP mode. One giant map. A Battle Bus. Last one standing wins." VerticalAlignment="Top" FontFamily="Segoe UI" Foreground="#FFF6EDF5" FontWeight="Normal" FontStyle="Normal" FontSize="14" Opacity="0.6" Width="384"/>
+        <TextBlock HorizontalAlignment="Left" Margin="69,340,0,0" TextWrapping="Wrap" Text="This download also allows you to purchase the Save The World co-op PvE campaign during Early Access season. The Storm came without warning and 98% of the world's population vanished. You and up to 3 players lead the world's remaining Heroes in a battle to save the world." VerticalAlignment="Top" FontFamily="Segoe UI" Foreground="#FFF6EDF5" FontWeight="Normal" FontStyle="Normal" FontSize="14" Opacity="0.6" Width="384"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="69,453,0,0" TextWrapping="Wrap" Text="SERVERS: " VerticalAlignment="Top" Width="79" FontWeight="Bold" Foreground="White" FontFamily="Bahnschrift SemiBold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="151,453,0,0" TextWrapping="Wrap" Text="ONLINE" VerticalAlignment="Top" Width="79" FontWeight="Bold" Foreground="#FF1EE81C" FontFamily="Bahnschrift SemiBold" FontSize="16"/>
+        <Border BorderBrush="#FF99CF91" BorderThickness="17" HorizontalAlignment="Left" Height="90" Margin="65,497,0,0" VerticalAlignment="Top" Width="411" Background="#FF99CF91" CornerRadius="0.2"/>
+        <Border BorderBrush="#FF79A874" BorderThickness="17" HorizontalAlignment="Left" Height="90" Margin="427,497,0,0" VerticalAlignment="Top" Width="49" Background="#FF79A874" CornerRadius="0.2"/>
+        <Border BorderBrush="#FF79A874" BorderThickness="17" HorizontalAlignment="Left" Height="90" Margin="427,497,0,0" VerticalAlignment="Top" Width="37" Background="#FF79A874"/>
+        <Button Name="InstallButton" Content="Install         " HorizontalAlignment="Left" Height="90" Margin="65,497,0,0" VerticalAlignment="Top" Width="362" Foreground="White" FontFamily="Segoe UI Variable Display Semibold" FontSize="24" Background="#FF757575" BorderBrush="DarkGray" Click="InstallButton_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Width="411" Height="90" CornerRadius="2" Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FF8EBA8A"/>
+                    <Setter Property="Cursor" Value="Hand"></Setter>
+                    <Style.Triggers>
+                        <EventTrigger RoutedEvent="UIElement.MouseLeave">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ColorAnimation Storyboard.TargetProperty="Background.Color" Duration="00:00:00.15" From="#FFa9a9a9" To="#FF757575"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="UIElement.MouseEnter">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ColorAnimation Storyboard.TargetProperty="Background.Color" Duration="00:00:00.15" From="#FF757575" To="#FFa9a9a9"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Button Name="LaunchButton" Content="Launch         " HorizontalAlignment="Left" Height="90" Margin="65,497,0,0" VerticalAlignment="Top" Width="362" Foreground="White" FontFamily="Segoe UI Variable Display Semibold" FontSize="24">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Width="411" Height="90" CornerRadius="2" Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FF8EBA8A"/>
+                    <Setter Property="Cursor" Value="Hand"></Setter>
+                    <Style.Triggers>
+                        <EventTrigger RoutedEvent="UIElement.MouseLeave">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ColorAnimation Storyboard.TargetProperty="Background.Color" Duration="00:00:00.15" From="#FF79A874" To="#FF8EBA8A"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="UIElement.MouseEnter">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ColorAnimation Storyboard.TargetProperty="Background.Color" Duration="00:00:00.15" From="#FF8EBA8A" To="#FF79A874"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Image Source="/sharp_settings_white_24dp.png" Margin="438,528,1070,264"/>
+        <Border HorizontalAlignment="Left" Height="1" Margin="65,612,0,0" VerticalAlignment="Top" Width="411" Background="White" BorderBrush="White" Opacity="0.4"/>
+        <TextBlock HorizontalAlignment="Left" Margin="69,645,0,0" TextWrapping="Wrap" Text="VISIT FORTNITE ON:" VerticalAlignment="Top" FontFamily="Segoe UI" Foreground="#FFF6EDF5" FontWeight="Normal" FontStyle="Normal" FontSize="14" Opacity="0.4" Width="384"/>
+        <Image Source="/ytgu.png" Margin="69,681,1439,107"/>
+
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="32" Margin="69,681,0,0" VerticalAlignment="Top" Width="28" Background="White" Opacity="0.0001" MouseUp="TwitClick"/>
+        <Border x:Name="MinBorder" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="28" Margin="1457,0,0,0" VerticalAlignment="Top" Width="39" Background="White" Opacity="0" MouseEnter="MinMEnter" MouseLeave="MinMLeave" MouseUp="MinClick"/>
+        <Image Source="/nfu.png" Margin="94,676,1396,102"/>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="33" Margin="105,680,0,0" VerticalAlignment="Top" Width="24" Background="White" Opacity="1E-11" MouseUp="FBClick"/>
+        <Image Source="/twitch.png" Margin="139,682,1376,107"/>
+        <TextBlock HorizontalAlignment="Left" Margin="871,42,0,0" TextWrapping="Wrap" Text="MODDING" VerticalAlignment="Top" Foreground="#FF8D8D8D" FontWeight="Bold" FontFamily="National Park Heavy"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="24" Margin="139,687,0,0" VerticalAlignment="Top" Width="21" Background="White" Opacity="0.0001" MouseUp="TwitcClick"/>
+        <Image Source="/inst.png" Margin="175,681,1340,108"/>
+        <Image Source="/yt.png" Margin="204,684,1270,110"/>
+        <Image Source="/disc.png" Margin="271,683,1244,106"/>
+        <Image Source="/vkblack.png" Margin="309,680,1194,102"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="30" Margin="170,682,0,0" VerticalAlignment="Top" Width="30" Background="White" Opacity="0.0001" MouseUp="InstaClick"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="26" Margin="213,685,0,0" VerticalAlignment="Top" Width="45" Background="White" Opacity="0.0001" MouseUp="YTClick"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="30" Margin="267,683,0,0" VerticalAlignment="Top" Width="30" Background="White" Opacity="0.0001" MouseUp="DiscClick"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="25" Margin="306,686,0,0" VerticalAlignment="Top" Width="40" Background="White" Opacity="0.0001" MouseUp="VKClick"/>
+    </Grid>
+</Window>

@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_7._2._2_3860252___Portal_Release_Live</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BG.png" />
+    <None Remove="disc.png" />
+    <None Remove="downloads.png" />
+    <None Remove="eglogo.png" />
+    <None Remove="friends.png" />
+    <None Remove="inst.png" />
+    <None Remove="Mediamodifier-Design-Template-trimmy.png" />
+    <None Remove="Mediamodifier-Design-Template.png" />
+    <None Remove="nfu.png" />
+    <None Remove="settings.png" />
+    <None Remove="sharp_keyboard_arrow_down_black_24dp.png" />
+    <None Remove="sharp_keyboard_arrow_down_white_24dp.png" />
+    <None Remove="sharp_settings_black_24dp.png" />
+    <None Remove="sharp_settings_white_24dp.png" />
+    <None Remove="twitch.png" />
+    <None Remove="uprofile.png" />
+    <None Remove="ustat.png" />
+    <None Remove="vkblack-trimmy.png" />
+    <None Remove="vkblack.png" />
+    <None Remove="yt.png" />
+    <None Remove="ytgu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BG.png" />
+    <Resource Include="disc.png" />
+    <Resource Include="downloads.png" />
+    <Resource Include="eglogo.png" />
+    <Resource Include="friends.png" />
+    <Resource Include="inst.png" />
+    <Resource Include="Mediamodifier-Design-Template-trimmy.png" />
+    <Resource Include="Mediamodifier-Design-Template.png" />
+    <Resource Include="nfu.png" />
+    <Resource Include="settings.png" />
+    <Resource Include="sharp_keyboard_arrow_down_black_24dp.png" />
+    <Resource Include="sharp_keyboard_arrow_down_white_24dp.png" />
+    <Resource Include="sharp_settings_black_24dp.png" />
+    <Resource Include="sharp_settings_white_24dp.png" />
+    <Resource Include="twitch.png" />
+    <Resource Include="uprofile.png" />
+    <Resource Include="ustat.png" />
+    <Resource Include="vkblack-trimmy.png" />
+    <Resource Include="vkblack.png" />
+    <Resource Include="yt.png" />
+    <Resource Include="ytgu.png" />
+  </ItemGroup>
+
+</Project>
