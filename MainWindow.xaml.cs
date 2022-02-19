@@ -147,16 +147,17 @@ namespace _7._2._2_3860252___Portal_Release_Live
             }
         }
         //install url is https://www.googleapis.com/drive/v3/files/1ceZZgaOo7TfSxfzmuHD5dqpwNau61r-n
+        //googleapis is sexy :drooling_face:
         private void InstallButton_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-            string gzip = "FortniteGame.zip";
-            WebClient webclient = new WebClient();
-            webclient.DownloadFileCompleted += new System.ComponentModel.AsyncCompletedEventHandler(DownloadGameCompletedCallback);
-            webclient.DownloadFileAsync(new Uri("https://www.googleapis.com/drive/v3/files/1ceZZgaOo7TfSxfzmuHD5dqpwNau61r-n?alt=media&key=AIzaSyD3hsuSxEFnxZkgadbUSPt_iyx8qJ4lwWQ"), gzip);
-            InstallButton.Content = "Installing        ";
-            InstallButton.IsEnabled = false;
+                string gzip = "FortniteGame.zip";
+                WebClient webclient = new WebClient();
+                webclient.DownloadFileCompleted += new System.ComponentModel.AsyncCompletedEventHandler(DownloadGameCompletedCallback);
+                webclient.DownloadFileAsync(new Uri("https://www.googleapis.com/drive/v3/files/1ceZZgaOo7TfSxfzmuHD5dqpwNau61r-n?alt=media&key=AIzaSyD3hsuSxEFnxZkgadbUSPt_iyx8qJ4lwWQ"), gzip);
+                InstallButton.Content = "Installing        ";
+                InstallButton.IsEnabled = false;
             }
             catch (Exception ex)
             {
