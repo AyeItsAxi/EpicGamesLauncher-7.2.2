@@ -1,1 +1,1 @@
-"# EpicGamesLauncher-7.2.2" 
+# EpicGamesLauncher-7.2.2
